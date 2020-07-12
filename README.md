@@ -1,3 +1,4 @@
 # Assignment
-### Assignment 1
-Portfolio Creation [(Repo)](https://drive.google.com/open?id=1Og_0Tf5_WdCr6O-y0g73G-NV2nOMGEw3)
+### Assignment 1 - Portfolio Creation 
+- Repository: https://github.com/bhavesh2699/assignment/tree/master/assignment%201
+- Live Project Link: https://determined-colden-d61e0d.netlify.app/
