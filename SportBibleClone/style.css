@@ -1,0 +1,198 @@
+body{
+  
+justify-content: left;
+}
+
+
+a{
+  font-family: 'MyFont',  'Open Sans', sans-serif;
+  font-size: 14px;
+}
+@font-face{
+    font-family: "MyFont";
+    src: url(/SportBibleClone/assests/druck_box_font.ttf);
+}
+.header img{
+    margin: 30px 10px 10px 70px;
+    display: block;
+    width: 1050px;
+    height: 495px;
+  
+    
+}
+ #cardcenter{
+  width: 700px; height: 260px;
+  position: absolute;
+  z-index: 0;
+  top: 550px;
+  left: 280px;
+  background-color: #74bf74;
+  
+}
+ #cardwhite{
+  width: 700px; height: 280px;
+  position: absolute;
+  z-index: 0;
+  top: 510px;
+  left: 250px;
+  
+}
+.text-center{
+ font-size: 20px;
+ color: black;
+ font-weight: bolder;
+margin-left: 40px;
+ 
+}
+.text-upper{
+  font-size: 14px;
+  color: #74bf74;
+ margin-top: 40px;
+ margin-left: 350px;
+ }
+ .text-bottom{
+   margin-left: 50px;
+   font-size: 14px;
+   color: #a7a7a7;
+   text-align: center;
+ }
+ #cardgreen{
+   position: absolute;
+   z-index: 0;
+   top: 148px;
+  left: 1150px;
+   width: 300px;
+   height: 50px;
+   background-color: #74bf74;
+  color: white;
+  padding-top: 10px;
+  padding-left: 80px;
+ }
+ .box-white{
+   position: absolute;
+   z-index: 0;
+   width: 300px;
+   height: 190px;
+   top: 220px;
+  left: 1150px;
+  background-color:snow;
+  
+
+ }
+ .item-fb{
+   position: absolute;
+   width: 250px;
+   height: 50px;
+   top: 10px;
+   left: 20px;
+   background-color: #4267b2;
+   text-align: center;
+   color: white;
+   padding-top: 10px;
+  
+ }
+ .fb{
+  margin-left: 10px;
+   width: 30px;
+   height: 30px;
+   float: left;
+
+ }
+ .item-twitter{
+
+  width: 250px;
+  height: 50px;
+  margin-top: 65px;
+  margin-left: 20px;
+  background-color: #1da1f2;
+ padding-top: 10px;
+ text-align: center;
+  color: white;
+  font-size: 16px;
+  
+}
+.twitter{
+  margin-left: 10px;
+   width: 30px;
+   height: 30px;
+   float: left;
+
+ }
+ .item-insta{
+   background-color: #cc2d63;
+   width: 250px;
+   height: 50px;
+   padding-top: 10px;
+   text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 16px;
+ }
+ .insta{
+   margin-top: 5px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  float: left;
+ }
+ #watchcard{
+  position: absolute;
+  z-index: 0;
+  top: 430px;
+ left: 1150px;
+  width: 300px;
+  height: 50px;
+  background-color: #74bf74;
+ color: white;
+ padding-top: 10px;
+ padding-left: 80px;
+}
+#righcard{
+  position: absolute;
+  z-index: 0;
+  top: 500px;
+ left: 1150px;
+ background-color: black;
+ color: white;
+ text-align: center;
+}
+#bottomcard{
+  position: absolute;
+  z-index: 0;
+  top: 900px;
+ left: 1150px;
+ background-color: black;
+ color: white;
+ text-align: center;
+}
+#main-card{
+  width: 1050px;
+  margin-left: 70px;
+ margin-top: 180px;
+}
+
+.card-text{
+  font-family: HelveticaNeueBold, sans-serif;
+  line-height: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.card-title{
+  font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+    color: rgb(116, 184, 127);
+}
+.sub-text{
+  color: rgb(167, 167, 167);
+    font-size: 0.875rem;
+    line-height: 1rem;
+  
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-height: 4.2em;
+    margin-bottom: 0.5rem;
+   overflow: hidden;
+}
