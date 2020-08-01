@@ -49,9 +49,15 @@ function getForecast(city,days){
 }
 
 function formatForecast(data){
+	var d = new Date();
+    console.log(d.getDate());
+    console.log(d.getMonth()+1);
 	var table="";
 	for (var i = 0; i < data.list.length; i++) {
 		table += "<tr>";
+		if(i==0) table += "<td>Today</td>";
+		if(i==1) table += "<td>Tomorrow</td>";
+		if(i>1) table += "<td>"+(i+1)+"</td>";
 		table += "<td><img src='http://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png'/></td>";
 		table += "<td>" + data.list[i].weather[0].main + "</td>";
 		table += "<td>" + data.list[i].weather[0].description + "</td>";
@@ -64,6 +70,7 @@ function formatForecast(data){
 		table += "<td>" + data.list[i].speed + "m/s</td>";
 		table += "</tr>";
 	}
+
 	return table;
 }
 
