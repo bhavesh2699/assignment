@@ -4,7 +4,6 @@ function getWeather(city){
 	xhr.onreadystatechange=function(){
 		if (this.status==200 && this.readyState==4) {
 			var formattedData=formatWeather(JSON.parse(xhr.responseText));
-			console.log(xhr.responseText);
 			document.getElementById("weather-data").innerHTML=formattedData;
 			document.getElementById('cityname').value="";
 		}

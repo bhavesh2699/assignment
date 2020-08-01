@@ -23,7 +23,7 @@ body{
 	transition: all 0.3s;
 }
 .app-name:hover{
-	color: #fff!important;
+	color: black!important;
 }
 #nav_list li a{
 	color: #d50000;
@@ -33,7 +33,7 @@ body{
 }
 
 #nav_list li a:hover{
-	color:#fff;
+	color:black;
 }
 
 #logo{
@@ -62,7 +62,7 @@ body{
 	font-size: 2.3em;
 }
 #tagline-2{
-	color: black;
+	color: white;
 	padding-top: 2%;
 	padding-bottom: 5%;
 	font-family: 'Indie Flower',cursive;
@@ -70,7 +70,7 @@ body{
 }
 
 ul#list_inline{
-	color: black;
+	color: white;
 	font-size: 1.8em;
 	text-align: center;
 
@@ -92,10 +92,10 @@ ul#list_inline{
 	background-color: #4aa1f3;
 	color: white;
 }
-input[type='text'],#submitCity{
+input[type='text','number'],#submitCity{
 	height: 1.8em;
 	font-size: 1.6em;
-	margin-bottom: 8%;
+	margin-bottom: 2%;
 }
 
 label{
