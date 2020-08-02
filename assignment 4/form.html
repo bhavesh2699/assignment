@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Form and Events</title>
+</head>
+<body>
+        <div class="container mt-2">
+                <h1>Registration Form</h1>
+                <form id="registrationForm">
+                  <div class="form-group row">
+                    <div class="col">
+                        <label id="uname"></label>
+                      <input id="username" type="text" class="form-control" onblur="chk()">
+                      <label id="chk_uname"  style="color: red;"></label>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col">
+                        <label id="pass"></label>
+                      <input id="password" type="password" class="form-control"  onblur="chk()">
+                      <label id="chk_pass"  style="color: red;"></label>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col">
+                        <label id="cnf_pass"></label>
+                      <input id="confirmPassword" type="password" class="form-control"  onblur="chk()" oninput="chk()">
+                      <label id="chk_cnf_pass" style="color: red;"></label>
+                    </div>
+                  </div>
+                  <!-- <div id="txt" on></div> -->
+                  <div class="row">
+                    <div class="col">
+                        <button class="btn btn-primary btn-block" id="mySubmit" onclick="submission()">
+                          Register
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+    <script type="text/javascript" src="./ExerciseEvents.js"></script>
+</body>
+</html>
