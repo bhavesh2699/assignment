@@ -18,30 +18,30 @@ addLabel();
 */
 document.getElementById("mySubmit").disabled = true;
 
-function chk(){
+function submit(){
     const uname = document.getElementById('username').value;
     const pass = document.getElementById('password').value;
     const cnf_pass = document.getElementById('confirmPassword').value;
 
     if(uname === ''){
         event.preventDefault();
-        document.getElementById('chk_uname').innerHTML = 'Enter Username !!!';
+        document.getElementById('val_uname').innerHTML = 'Enter Username !!!';
     }
     else{
-        document.getElementById('chk_uname').innerHTML = ''; 
+        document.getElementById('val_uname').innerHTML = ''; 
     }
 
     if(pass === ''){
         event.preventDefault();
-        document.getElementById('chk_pass').innerHTML = 'Enter Password !!!'; 
+        document.getElementById('val_pass').innerHTML = 'Enter Password !!!'; 
     }
     else{
-        document.getElementById('chk_pass').innerHTML = ''; 
+        document.getElementById('val_pass').innerHTML = ''; 
     }
 
     if(cnf_pass === ''){
         event.preventDefault();
-        document.getElementById('chk_cnf_pass').innerHTML = 'Confirm Password !!!'; 
+        document.getElementById('val_cnf_pass').innerHTML = 'Confirm Password !!!'; 
     }
 
     /*
@@ -51,7 +51,7 @@ function chk(){
     */
     else if(pass != cnf_pass){
         event.preventDefault();
-        document.getElementById('chk_cnf_pass').innerHTML = 'Password does not match !!!'; 
+        document.getElementById('val_cnf_pass').innerHTML = 'Password does not match !!!'; 
     }
     /*
     Exercise 04
@@ -59,7 +59,7 @@ function chk(){
     Ensure the ‘Register’ button is disabled until the user has entered valid data into all the input fields.  Once they have, the registration button should then be enabled.
     */
     else{
-        document.getElementById('chk_cnf_pass').innerHTML = ''; 
+        document.getElementById('val_cnf_pass').innerHTML = ''; 
         document.getElementById("mySubmit").disabled = false;
     }
 }
